@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script type="text/javascript" rel="script" src="js/addManufacturer.js"></script>
+    <title>Car add</title>
+</head>
+<form method="POST" action="/addManufacturer" onsubmit="myFunction(event)">
+    <table class="bigTable" id="manuAddTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Founded</th>
+                <th>Submit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="Name" required="required" autofocus/></td>
+                <td><input type="text" name="Country" required="required"/></td>
+                <td><input type="date" name="Founded" required="required"/></td>
+                <td><input type="submit" name="Submit" required="required"/></td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+</html>

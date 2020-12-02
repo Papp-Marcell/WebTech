@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script type="text/javascript" rel="script" src="js/addCar.js"></script>
+    <title>Car add</title>
+</head>
+<form method="POST" action="/addCar" onsubmit="myFunction(event)">
+    <table class="bigTable" id="carAddTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Consumption</th>
+                <th>Color</th>
+                <th>Manufacturer</th>
+                <th>Available</th>
+                <th>Year</th>
+                <th>Horsepower</th>
+                <th>Submit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="Name" required="required" autofocus/></td>
+                <td><input type="text" name="Consumption" required="required"/></td>
+                <td><input type="color" name="Color" required="required"/></td>
+                <td>
+                    <select name="Manufacturer" id="dropdownM" required="required">
+                    
+                    </select>
+                </td>
+                <td><input type="number" name="Available" required="required"/></td>
+                <td><input type="number" name="Year" required="required"/></td>
+                <td><input type="number" name="Horsepower" required="required"/></td>
+                <td><input type="submit" name="Submit" required="required"/></td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+</html>

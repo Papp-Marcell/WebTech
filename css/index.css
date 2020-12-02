@@ -1,0 +1,111 @@
+body {
+    background-color: 	  #4F4F4F;
+    margin: 0px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+.contentImage {
+    width: 200px;
+}
+
+
+.bigTable {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 200px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 25px;
+    overflow: hidden;
+    
+
+}
+
+.bigTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    height: 70px;
+    
+    
+}
+
+.bigTable th,
+.bigTable td {
+    padding: 12px 15px;
+    
+}
+
+
+.bigTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+    color: #009879;
+    background-color: rgb(31, 30, 30);
+    height: 50px;
+    text-align: center;
+    
+}
+
+.bigTable thead {
+    border-radius: 25px;
+}
+
+.bigTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+#carAddTable tbody {
+    height: 70px;
+}
+
+#header {
+    
+    background: black;
+    color: whitesmoke;
+    
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+#header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+#header a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.centeredTd {
+    text-align: center;
+}
+
