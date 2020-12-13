@@ -16,6 +16,13 @@ a:visited {
 }
 
 
+.modifyDiv{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+
 .bigTable {
     border-collapse: collapse;
     font-size: 0.9em;
@@ -25,7 +32,8 @@ a:visited {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin: 3%;
+
     border-radius: 25px;
     overflow: hidden;
     

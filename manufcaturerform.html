@@ -27,4 +27,35 @@
     </table>
 
 </form>
+
+<div class="modifyDiv">
+    Modify
+</div>
+<form method="POST" action="/addManufacturer" onsubmit="myModify(event)">
+    <table class="bigTable" id="manuAddTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Founded</th>
+                <th>Submit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <select name="ID2" id="idDropdown" required="required" onchange="selected()">
+                    
+                    </select>
+                </td>
+                <td><input type="text" name="Name2" required="required" autofocus/></td>
+                <td><input type="text" name="Country2" required="required"/></td>
+                <td><input type="date" name="Founded2" required="required"/></td>
+                <td><input type="submit" name="Submit2" required="required"/></td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
 </html>
