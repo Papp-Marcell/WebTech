@@ -65,6 +65,7 @@ function selected(){
         if(obj._id==selectedID){
             document.getElementsByName("Name2")[0].value=obj.name;
             document.getElementsByName("Consumption2")[0].value=obj.consumption;
+            //This can only get correct colors
             document.getElementsByName("Color2")[0].value=obj.color;
             //This can only select manufacturers from the manufacturers page.
             document.getElementsByName("Manufacturer2")[0].value=obj.manufacturer;
